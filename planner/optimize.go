@@ -22,6 +22,7 @@ import (
 	"github.com/pingcap/tidb/sessionctx"
 )
 
+// just test
 // Optimize does optimization and creates a Plan.
 // The node must be prepared first.
 func Optimize(ctx sessionctx.Context, node ast.Node, is infoschema.InfoSchema) (plannercore.Plan, error) {
